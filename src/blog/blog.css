@@ -1,0 +1,31 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Sniglet');
+</style>
+h1 { color: blue;
+
+} 
+body {
+    background: orange;
+}main {
+    background: green;
+    width: 60%
+     
+    
+}
+
+article{
+    border: solid sienna 2px;
+}
+article:hover {
+    background: plum
+}
+
+body { height: 100% 
+    width: 100% 
+    Padding: 50px 10%} 0;
+}
+
+p {
+    height: 100px ; 
+    width: 90% ;
+}

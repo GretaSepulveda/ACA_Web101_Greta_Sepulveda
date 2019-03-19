@@ -1,0 +1,219 @@
+/* CSS media query within a stylesheet */
+
+<div>@media (min-width: 600px) {
+  .column {
+    color: blue;
+  }
+  </div>
+}
+@media (min-width: 600px) {
+    .column {
+      color: blue;
+    }
+{max width: 100px ;
+    nav { right: 0%
+        height: 70px;
+        background-color:red(238, 238, 238, 0.5);
+        display: block;
+        position: right;
+        padding: 10px 15px;
+        transition: background-color 0.3s ease;
+      }
+      min-width: 150px;
+      max-width: 560px;
+
+      @media (max-width: width 960px;){
+          .container
+          width: auto;
+      }
+/* CSS media query within a stylesheet */
+
+@media (min-width: 600px) {
+    .column {
+      color: blue;
+    }
+  }
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    height:100%;
+    background-color: #444;
+  }
+  h1{
+    font-size:1em;
+    text-align:center;
+    color:orange 
+    letter-spacing:1px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .nav-container{ align right: 
+    width:300px;
+    margin-top:10px;
+    box-shadow: 0 2px 2px 2px black;
+    transition: all 0.3s linear;
+  }
+  .nav{
+    list-style-type:right;
+    margin:30;
+    padding:30;
+  }
+  li{
+    height:50px; 
+    position:relative;
+    background: linear-gradient(#292929, #242424);
+  }
+  a {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid black;
+    text-decoration:none;
+    display:block;
+    height:100%;
+    width:100%;
+    line-height:50px;
+    color:#bbb;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left:25%;
+    border-left:5px solid transparent;
+    letter-spacing:1px;
+    transition: all 0.3s linear;
+  }
+  .active a{
+    color: #B93632;
+    border-left:5px solid #B93632;
+    background-color: #1B1B1B;
+    outline:4;
+  }
+  li:not(.active):hover a{
+    color: rgb(76, 0, 255)
+        border-right: 5px solid #FCFCFC;
+    background-color: orange 
+  }
+  span[class ^= "icon"]{
+    position:absolute;
+    right:20px;
+    font-size: 1.5em;
+    transition: all 0.3s linear;
+  }
+  
+  @media only screen and (max-width : 560px){
+    
+    .text{
+      display:right;
+    }
+    
+    .nav-container , a{
+      width: 70px;
+      
+    }
+     
+    a:hover{
+      width:200px; 
+      z-index:1;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      border-bottom: 1px solid black;
+      box-shadow: 0 0 1px 1px black;
+    }
+    
+    a:hover  .text {
+      display:block;
+      padding: right 500;;
+    }
+  }
+  @media only screen and (max-width : 580px){
+    .nav-container, a{ width:50px;}
+    span[class ^= "icon"]{ right:8px;}
+  }
+  *{
+  box-sizing: border-box;
+}
+body{
+  height:100%;
+  background-color: #444;
+}
+h1{
+  font-size:1em;
+  text-align:center;
+  color: #eee;
+  letter-spacing:1px;
+  text-shadow: 1px 1px 1px ergba(0,0,0,0.5);
+}
+.nav-container{
+  width:300px;
+  margin-top:10px;
+  box-shadow: 0 2px 2px 2px black;
+  transition: all 0.3s linear;
+}
+.nav{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+li{
+  height:50px; 
+  position:relative;
+  background: linear-gradient(#292929, #242424);
+}
+a {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid black;
+  text-decoration:none;
+  display:block;
+  height:100%;
+  width:100%;
+  line-height:50px;
+  color:#bbb;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left:25%;
+  border-left:5px solid transparent;
+  letter-spacing:1px;
+  transition: all 0.3s linear;
+}
+.active a{
+  color: #B93632;
+  border-left:5px solid #B93632;
+  background-color: #1B1B1B;
+  outline:0;
+}
+li:not(.active):hover a{
+  color: #eee;
+  border-left: 5px solid #FCFCFC;
+  background-color: #1B1B1B;
+}
+span[class ^= "icon"]{
+  position:absolute;
+  left:20px;
+  font-size: 1.5em;
+  transition: all 0.3s linear;
+}
+
+@media only screen and (max-width : 860px){
+  
+  .text{
+    display:none;
+  }
+  
+  .nav-container , a{
+    width: 70px;
+    
+  }
+   
+  a:hover{
+    width:200px; 
+    z-index:1;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 1px 1px black;
+  }
+  
+  a:hover  .text {
+    display:block;
+    padding-left:30%;
+  }
+}
+@media only screen and (max-width : 480px){
+  .nav-container, a{ width:50px;}
+  span[class ^= "icon"]{ left:8px;}
+}

@@ -1,5 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css?family=Sniglet');
 h1 { color: blue;
 
 } 
@@ -8,10 +6,6 @@ body {
 }main {
     background: green;
     width: 60%
-     
-    
-}
-
 article{
     border: solid sienna 2px;
 }

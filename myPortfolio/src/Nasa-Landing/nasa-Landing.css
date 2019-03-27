@@ -1,19 +1,18 @@
 body {
     width: 850px;
-    margin: 0 auto;
+    margin:  auto;
+    display:block; 
 }
 
 
 main {
-    margin: 0 auto;
+    margin: 0;
     height: 450px;
     background-image: url(./beautiful\ cosmic\ picture.jpg);
     color: blue;
+    text-align: center;
     font-family: 'Anton', sans-serif;
-    flex-direction:column;
-    
-  
-   
+    flex-direction:center;   
 }
 
 section {
@@ -22,25 +21,33 @@ section {
     flex-direction: row;
     justify-content: space-between;
     background-color: orange; 
-    align-content: space-between;
-    
    
     }
-}
-
 article {
+padding: 10px;
+margin: 10px;
 width: 270px;
 background-color: orange
 }
-
 section {
     white-space: initial;
-}
+    
 }
 .parent {
+    display: flex;
     width: 80%;
     margin: auto;
     background-color: aqua;
     padding: 20px 0;
+    justify-content: space-between
+}
+.my-parent-element {
+    display: flex;
+    /* other rules go here */
   }
-  
+  h1 {
+    text-align: center;
+    color: blue;
+    line-height: 500px;
+    margin: 0;
+  }

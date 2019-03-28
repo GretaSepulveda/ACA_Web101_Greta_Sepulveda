@@ -1,5 +1,5 @@
 body {
-    width: 850px;
+    width: 100%;
     margin:  auto;
     display:block; 
 }
@@ -11,8 +11,11 @@ main {
     background-image: url(./beautiful\ cosmic\ picture.jpg);
     color: blue;
     text-align: center;
-    font-family: 'Anton', sans-serif;
-    flex-direction:center;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 40px;
 }
 
 section {
@@ -21,6 +24,9 @@ section {
     flex-direction: row;
     justify-content: space-between;
     background-color: orange; 
+    margin-top: 20px;
+    
+    
    
     }
 article {
@@ -28,10 +34,6 @@ padding: 10px;
 margin: 10px;
 width: 270px;
 background-color: orange
-}
-section {
-    white-space: initial;
-    
 }
 .parent {
     display: flex;
@@ -48,6 +50,20 @@ section {
   h1 {
     text-align: center;
     color: blue;
-    line-height: 500px;
+    /* line-height: 500px; */
     margin: 0;
-  }
+ }
+.whitebar{
+background: white;
+width:850px;
+height: 40px;
+padding: 16;
+
+}
+
+@media (max-width: 640px){
+    section { 
+        flex-direction: column;
+    }
+
+}

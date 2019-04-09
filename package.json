@@ -1,0 +1,19 @@
+{
+  "name": "aca_web101_greta_sepulveda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaGretaSepulveda/ACA_Web101_Greta_Sepulveda.git"
+  },
+  "author": "Greta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaGretaSepulveda/ACA_Web101_Greta_Sepulveda/issues"
+  },
+  "homepage": "https://github.com/MariaGretaSepulveda/ACA_Web101_Greta_Sepulveda#readme"
+}

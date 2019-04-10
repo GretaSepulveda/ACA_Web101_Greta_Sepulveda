@@ -108,13 +108,14 @@ body {
 	padding: 0;
 }
 #header .article h1 {
-	color: #17767d;
-	font-family: 'ChangaOne';
-	font-size: 40px;
+  color: #17767d;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-weight: normal;
 	margin: 0;
 	line-height: 50px;
-	padding: 110px 30px 30px;
+  padding: 110px 30px 30px;
+  
 }
 #body {
 	margin: 0 auto;

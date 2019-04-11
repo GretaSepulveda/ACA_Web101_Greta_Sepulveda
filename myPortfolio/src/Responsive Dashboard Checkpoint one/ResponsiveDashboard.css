@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+.main-container {
+  border: 1px solid black;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 50px repeat(3, 1fr)
+}
+nav {
+  border: 1px solid black;
+  grid-row: 1;
+}
+.row2 {
+  border: 1px solid red;
+}
+.row3 {
+  border: 1px solid green;
+}
+.row4 {
+  border: 1px solid blue;
+}
+
+
+
+/* .outer {
+    border: 30pt;
+}
+.box {
+border: 30px;
+padding: 30px;
+}
+@media (min-width: 600px) {
+    .column {
+      color: rgb(25, 198, 201);
+    }
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+body {
+align-content: center;
+align-items: center;
+}
+h1 {
+    align-items: center;
+} */

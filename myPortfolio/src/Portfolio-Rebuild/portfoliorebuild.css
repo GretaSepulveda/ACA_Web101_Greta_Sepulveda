@@ -2,31 +2,35 @@
 justify-content: center;
 }
 
-/* CSS media query within a stylesheet */
 
 @media (min-width: 600px) {
     .column {
-      color: blue;
+      color: rgb(40, 85, 180);
     }
   }
   form {
     margin-left:right;
     margin-right:right;
     max-width: 500px;
-    background: #F7F7F7;
-    padding: 25px 15px 25px 10px;
+    background: #f7f7f7;
+    padding: 15px 32px 25px 30px;
     font: 12px Georgia, "Times New Roman", Times, serif;
     color: #888;
     text-shadow: 1px 1px 1px #FFF;
     border:1px solid #E4E4E4;
 }
 h1 {
-    font-size: 25px;
-    padding: 0px 0px 10px 40px;
+    font-size: 40px;
+    padding: 10px 14px 10px 30px;
+    width: 100%;
+    height:100;
     display: block;
     border-bottom:1px solid #E4E4E4;
     margin: -10px -15px 30px -10px;;
-    color: #888;
+    color: rgb(14, 135, 190);
+    align-items: center;
+    background-color: rgb(18, 105, 218);
+    font-family: 'Anton', sans-serif;
 }
 h1>span {
     display: block;
@@ -90,4 +94,16 @@ textarea{
 }
 .button:hover {
     background: #CF7A7A
+}
+.bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+header{
+    background-color: #9E3F3F;
+}
+body{
+    background-color: rgb(0, 183, 255);
 }

@@ -1,0 +1,29 @@
+.outer {
+    border: 30pt;
+}
+.box {
+border: 30px;
+padding: 30px;
+}
+@media (min-width: 600px) {
+    .column {
+      color: rgb(25, 198, 201);
+    }
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+body {
+align-content: center;
+align-items: center;
+}
+h1 {
+    align-items: center;
+}

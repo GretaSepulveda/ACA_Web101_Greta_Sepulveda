@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Tic Tac Toe</title>
     <link rel="Stylesheet" href="./ticTacToe.css">
 </head>
 <body>
 <div class="main-container">
-  <div class="div.player-selection">
-    <button class="player-btn-x" onclick="selectx()">Player 1</button>
-    <button class="player-btn-0" onclick="select0()">Player 2</button>
+  <div class="player-selection">
+    <button class="player-btn player-x" onclick="selectx()">Player 1</button>
+    <button class="player-btn player-o" onclick="selecto()">Player 2</button>
   </div>
+  <div class="game-board">
   <div class="game-board-row">
     <div class="game-board-cell" onclick="setValue(this)"></div>
-    <div class="game-board-cell"onclick="setValue(this)"></div>
-    <div class="game-board-cell"onclick="setValue(this)"></div>
+    <div class="game-board-cell" onclick="setValue(this)"></div>
+    <div class="game-board-cell" onclick="setValue(this)"></div>
   </div>
   <div class="game-board-row">
     <div class="game-board-cell"onclick="setValue(this)"></div>
@@ -28,8 +29,6 @@
     <div class="game-board-cell"onclick="setValue(this)"></div>
     <div class="game-board-cell"onclick="setValue(this)"></div>
   </div>
-</div>
-
-    <script src="../scripts/tickTacToe.js"></script>
+ <script src="../scripts/tickTacToe.js"></script>
 </body>
 </html>

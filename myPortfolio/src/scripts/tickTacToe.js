@@ -4,7 +4,7 @@
     // change player 
 
     console.log('hello')
-    
+
     var player
     var prevPlayer
 

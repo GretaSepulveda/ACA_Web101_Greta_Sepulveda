@@ -240,6 +240,7 @@ footer {
     .about p {
         font-size:1em;
         line-height:2;
+        color:blue;
     }
     footer {
         height:130px;
@@ -259,3 +260,10 @@ font-size:14px;
     font-size:12px;
     line-height:1.5;
 }
+p {
+    font: maroon;
+    font-size: 22px;
+}
+.tada {
+    animation-timing-function: linear;
+    animation:5s infinite;

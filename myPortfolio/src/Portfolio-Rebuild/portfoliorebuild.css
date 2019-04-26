@@ -1,5 +1,5 @@
 body {
-    background-color:salmon;
+    background-color: mediumaquamarine;
 }
 
 a {
@@ -267,3 +267,7 @@ p {
 .tada {
     animation-timing-function: linear;
     animation:5s infinite;
+}
+.animated {
+    animation-duration:4s;
+ }
